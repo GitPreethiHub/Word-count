@@ -18,7 +18,7 @@ Count the number of words using len() function.
 ### Step 6: 
 Print the number of words
 ## PROGRAM:
-'''
+```
 Program to count the number of words in a file
 Developed by: Preethi M
 Register Number: 212222100037
@@ -30,6 +30,7 @@ with open(fp,'r') as f:
     word=line.split()
     words+=len(word)
 print("Number of words:",words)
+```
 ### OUTPUT:
 ![image](https://github.com/GitPreethiHub/Word-count/assets/119475585/abefa592-3b84-449e-8adf-db284e0403bc)
 
